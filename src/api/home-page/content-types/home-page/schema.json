@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "LogosInternationalPartners": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "LogosUkrainianPartners": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "LogosEmbassies": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "EMail": {
+      "type": "email"
+    },
+    "TelephoneNumber": {
+      "type": "string"
+    },
+    "Adress": {
+      "type": "string"
+    },
+    "AdressLink": {
+      "type": "string"
+    },
+    "SocialMedia": {
+      "type": "richtext"
+    },
+    "PrivacyPolicy": {
+      "type": "string"
+    },
+    "SubTitleHomePage": {
+      "type": "text"
+    }
+  }
+}

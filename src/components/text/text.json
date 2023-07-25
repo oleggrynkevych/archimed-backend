@@ -1,0 +1,145 @@
+{
+  "collectionName": "components_text_texts",
+  "info": {
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text1": {
+      "type": "richtext"
+    },
+    "Text2": {
+      "type": "richtext"
+    },
+    "Text3": {
+      "type": "richtext"
+    },
+    "Text4": {
+      "type": "richtext"
+    },
+    "Text5": {
+      "type": "richtext"
+    },
+    "Text6": {
+      "type": "richtext"
+    },
+    "Text7": {
+      "type": "richtext"
+    },
+    "Text8": {
+      "type": "richtext"
+    },
+    "Text9": {
+      "type": "richtext"
+    },
+    "Text10": {
+      "type": "richtext"
+    },
+    "Text11": {
+      "type": "richtext"
+    },
+    "Text12": {
+      "type": "richtext"
+    },
+    "Text13": {
+      "type": "richtext"
+    },
+    "Text14": {
+      "type": "richtext"
+    },
+    "Text15": {
+      "type": "richtext"
+    },
+    "Text16": {
+      "type": "richtext"
+    },
+    "Text17": {
+      "type": "richtext"
+    },
+    "Text18": {
+      "type": "richtext"
+    },
+    "Text19": {
+      "type": "richtext"
+    },
+    "Text20": {
+      "type": "richtext"
+    },
+    "Text21": {
+      "type": "richtext"
+    },
+    "Text22": {
+      "type": "richtext"
+    },
+    "Text23": {
+      "type": "richtext"
+    },
+    "Text24": {
+      "type": "richtext"
+    },
+    "Text25": {
+      "type": "richtext"
+    },
+    "Text26": {
+      "type": "richtext"
+    },
+    "Text27": {
+      "type": "richtext"
+    },
+    "Text28": {
+      "type": "richtext"
+    },
+    "Text29": {
+      "type": "richtext"
+    },
+    "Text30": {
+      "type": "richtext"
+    },
+    "Text31": {
+      "type": "richtext"
+    },
+    "Text32": {
+      "type": "richtext"
+    },
+    "Text33": {
+      "type": "richtext"
+    },
+    "Text34": {
+      "type": "richtext"
+    },
+    "Text35": {
+      "type": "richtext"
+    },
+    "Text36": {
+      "type": "richtext"
+    },
+    "Text37": {
+      "type": "richtext"
+    },
+    "Text38": {
+      "type": "richtext"
+    },
+    "Text39": {
+      "type": "richtext"
+    },
+    "Text40": {
+      "type": "richtext"
+    },
+    "Text41": {
+      "type": "richtext"
+    },
+    "Text42": {
+      "type": "richtext"
+    },
+    "Text43": {
+      "type": "richtext"
+    },
+    "Text44": {
+      "type": "richtext"
+    },
+    "Text45": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "additional_materials",
+  "info": {
+    "singularName": "additional-material",
+    "pluralName": "additional-materials",
+    "displayName": "AdditionalMaterial",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "WhichService": {
+      "type": "integer"
+    },
+    "ModalDescription": {
+      "displayName": "ModalDescription",
+      "type": "component",
+      "repeatable": false,
+      "component": "text.modal-description"
+    }
+  }
+}
