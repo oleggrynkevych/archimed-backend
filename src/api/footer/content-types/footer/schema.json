@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "about_pages",
+  "collectionName": "footers",
   "info": {
-    "singularName": "about-page",
-    "pluralName": "about-pages",
-    "displayName": "AboutPage",
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
     "description": ""
   },
   "options": {
@@ -16,39 +16,23 @@
     }
   },
   "attributes": {
-    "Text1": {
-      "type": "text",
+    "TelephoneNumber": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
-    "Text2": {
-      "type": "text",
+    "Email": {
+      "type": "email",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
-    "Text3": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "Text4": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "ButtonText": {
+    "Adress": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -56,13 +40,21 @@
         }
       }
     },
-    "ButtonLink": {
+    "AdressLink": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
-      },
-      "type": "text"
+      }
+    },
+    "SocialMedia": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
