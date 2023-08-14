@@ -60,15 +60,7 @@
         }
       },
       "type": "uid",
-      "targetField": "TextForURL"
-    },
-    "TextForURL": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
+      "targetField": "Title"
     }
   }
 }
