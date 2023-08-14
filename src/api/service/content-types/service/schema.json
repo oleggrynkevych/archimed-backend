@@ -53,7 +53,7 @@
         }
       }
     },
-    "Slug": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
