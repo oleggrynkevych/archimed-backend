@@ -34,17 +34,6 @@
         }
       }
     },
-    "Description": {
-      "displayName": "Text",
-      "type": "component",
-      "repeatable": false,
-      "component": "text.text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "TextForCarouselItem": {
       "type": "string",
       "pluginOptions": {
@@ -61,6 +50,14 @@
       },
       "type": "uid",
       "targetField": "Title"
+    },
+    "Description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }

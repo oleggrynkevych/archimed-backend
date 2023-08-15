@@ -41,15 +41,12 @@
       }
     },
     "ModalDescription": {
-      "displayName": "ModalDescription",
-      "type": "component",
-      "repeatable": false,
-      "component": "text.modal-description",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "richtext"
     }
   }
 }
