@@ -21,5 +21,17 @@ module.exports = ({ env }) => ({
       config: {
         // See `Config` section.
       },
-    }
+    },
+
+    'slugify': {
+      enabled: true,
+      config: {
+        contentTypes: {
+          service: {
+                field: 'slug',
+                references: 'Title',
+          },
+        },
+      },
+    },
   });
