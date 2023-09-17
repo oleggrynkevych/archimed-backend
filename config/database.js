@@ -140,16 +140,7 @@ module.exports = ({ env }) => {
         },
         schema: env('DATABASE_SCHEMA', 'public'),
       },
-      // pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) },
-      pool: {
-        min: 0,
-        max: 10,
-        acquireTimeoutMillis: 600000,
-        createTimeoutMillis: 30000,
-        idleTimeoutMillis: 20000,
-        reapIntervalMillis: 20000,
-        createRetryIntervalMillis: 200,
-      },
+      pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) },
     },
     sqlite: {
       connection: {
